@@ -14,3 +14,8 @@
   $ yarn 
   $ yarn dev
 ```
+# Screenshots
+![alt text](https://github.com/JimmyBastos/RestWorkshop/Screenshots/image01.png)
+![alt text](https://github.com/JimmyBastos/RestWorkshop/Screenshots/image02.png)
+![alt text](https://github.com/JimmyBastos/RestWorkshop/Screenshots/image03.png)
+![alt text](https://github.com/JimmyBastos/RestWorkshop/Screenshots/image04.png)
