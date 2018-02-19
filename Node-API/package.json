@@ -1,0 +1,36 @@
+{
+  "name": "node-tasks-api",
+  "version": "1.0.0",
+  "description": "Simple Task Manager API",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/loader.js",
+    "clear": "rm -rf ./node_modules",
+    "test": "NODE_ENV='test' mocha test/**/*.js",
+    "docs": "apidoc -i src/routes/ -o public/apidoc"
+  },
+  "apidoc": {
+    "name": "Documentation: Node Contacts API"
+  },
+  "author": "Jimmy Bastos <garguelo46@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "apidoc": "^0.17.6",
+    "babel-cli": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.16.2",
+    "method-override": "^2.3.10",
+    "morgan": "^1.9.0",
+    "sequelize": "^4.22.6",
+    "sqlite3": "^3.1.13"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Documentation: Node Contacts API",
+  "version": "1.0.0",
+  "description": "Simple Task Manager API",
+  "sampleUrl": false,
+  "defaultVersion": "0.0.0",
+  "apidoc": "0.3.0",
+  "generator": {
+    "name": "apidoc",
+    "time": "2018-02-17T02:40:39.261Z",
+    "url": "http://apidocjs.com",
+    "version": "0.17.6"
+  }
+}
