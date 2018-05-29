@@ -11,7 +11,7 @@
               </div>
             </div>
           </v-card-title>
-        
+
           <v-card-actions>
             <v-btn flat @click="$emit('edit', contact)" color="blue-grey darken-1">
               <v-icon left>edit</v-icon> Edit
@@ -21,7 +21,7 @@
             </v-btn>
             <v-spacer> </v-spacer>
             <v-btn icon @click.native="show = !show">
-              <v-icon>{{ show ? 'keyboard_arrow_down' : 'keyboard_arrow_up' }}</v-icon>
+              <v-icon>{{ show ? 'keyboard_arrow_up' : 'keyboard_arrow_down' }}</v-icon>
             </v-btn>
           </v-card-actions>
 
